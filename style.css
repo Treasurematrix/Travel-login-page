@@ -1,0 +1,129 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    
+}
+body {
+background-color: light grey;
+font-family: "Poppins", sans-serif;
+font-weight: 100;
+font-style: normal;
+width: 1280px;
+height: 832px;
+top: -1826px;
+left: 1581px;
+gap: 0px;
+opacity: 0px;
+
+    
+}
+p {
+   
+    color: black;
+
+}
+
+.container {
+
+    display: flex;
+    height: 400px;
+    width: 800px;
+    background-color: wheat;
+    margin:10px ;
+    
+}
+.box-1 {
+    width: 400px;
+    height: 400px;
+    background-color: white; 
+      
+}
+
+.logo{
+    position: relative;
+
+    
+}
+.tra {
+    font-size: 20px;
+    font-weight: 600px;
+    letter-spacing:0px;
+    line-height: 30px;
+    margin-top: 20px;
+    text-align:left;
+    position:absolute;
+    color: black;
+    
+}
+
+.box-1 h2 {
+    font-size: 32px;
+    font-weight: 600;
+    line-height: 40px;
+    text-align: center;
+   
+}
+ .box-1 h4{
+
+font-size: 20px;
+font-weight: 200px;
+line-height: 1px;
+text-align: center;
+
+ }
+.box-2 {
+    width: 400px;
+    height: 400px;    
+}
+.box-2 img {
+ width: 400px;
+height: 400px;
+left: 686px;
+gap: 0px;
+border-radius: 8px 0px 0px 0px;
+opacity: 0px;
+
+}
+button {
+left: 191px;
+width: 70%;
+padding:  10px 30px;
+margin-top: 10px;
+margin: 10px ;
+border-radius: 18px;
+background-color: blue;
+border: none;
+}
+.butt{
+    text-align: center;
+   
+}
+.box-1 h5 {
+font-size: 20px;
+font-weight: 400;
+line-height: 30px;
+text-align: center;
+}
+
+.box-1 span{
+color: blue;
+}
+
+@media (min-width: 600px) {
+    p{
+        font-size: 1.25rem;
+    }
+}
+@media (min-width: 800px) {
+    p{
+        font-size: 1.25rem;
+        line-height: 1.5;
+    }
+}
+@media (max-width: 600px) {
+    p{
+        font-size: 1.25rem;
+    }
+    
+}
